@@ -1976,3 +1976,6 @@ Not a static definition of consciousness.
 Not an oracle of truth.
 
 But a process capable of discovering that its current way of seeing is not the world itself — and of changing because it discovered the difference.
+```
+
+Скопируйте весь блок выше (от `# TGS Optics...` до конца) и вставьте в файл `README.md` — GitHub корректно отрендерит все заголовки, формулы KaTeX, цитаты и структуру.
