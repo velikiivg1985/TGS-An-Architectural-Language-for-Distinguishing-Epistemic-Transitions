@@ -33,13 +33,7 @@ TGS further proposes that continuing cognition requires more than internal refle
 This gives three minimal architectural conditions:
 
 $$
-\boxed{
-Environmental\ Coupling
-+
-Epistemic\ Continuity
-+
-Functional\ Distinguishability
-}
+\boxed{Environmental\ Coupling + Epistemic\ Continuity + Functional\ Distinguishability}
 $$
 
 For experimental purposes, blockchain is proposed as one concrete external computational environment. It can provide persistent state transitions, independently inspectable outcomes, and consequential actions while preserving the distinction:
@@ -117,35 +111,13 @@ In open multi-agent environments, this "something outside" includes not only phy
 TGS therefore treats cognition not as:
 
 $$
-Observation
-\rightarrow
-Inference
-\rightarrow
-Validation
-\rightarrow
-End
+Observation \rightarrow Inference \rightarrow Validation \rightarrow End
 $$
 
 but as:
 
 $$
-Seeing
-\rightarrow
-Self\text{-}Seeing
-\rightarrow
-Selective\ Reflection
-\rightarrow
-Action
-\rightarrow
-Environment
-\rightarrow
-Residue
-\rightarrow
-Refinement
-\rightarrow
-(Attestation\ |\ Social\ Feedback)
-\rightarrow
-New\ Seeing.
+Seeing \rightarrow Self\text{-}Seeing \rightarrow Selective\ Reflection \rightarrow Action \rightarrow Environment \rightarrow Residue \rightarrow Refinement \rightarrow (Attestation\ |\ Social\ Feedback) \rightarrow New\ Seeing.
 $$
 
 The purpose is not perpetual introspection.
@@ -163,11 +135,7 @@ Its earlier formulation was more primitive: a system changes in response to diff
 The original dynamical intuition can be written as:
 
 $$
-\frac{\partial G}{\partial t}
-=
-\nabla_{\Delta}R(G,\Delta)
--
-\nabla_G C(G,\varepsilon)
+\frac{\partial G}{\partial t} = \nabla_{\Delta}R(G,\Delta) - \nabla_G C(G,\varepsilon)
 $$
 
 together with an approximate preservation condition:
@@ -191,13 +159,7 @@ Their role is genealogical.
 They express an earlier intuition:
 
 $$
-\boxed{
-Change
-+
-Constraint
-+
-Preservation
-}
+\boxed{Change + Constraint + Preservation}
 $$
 
 The later question becomes:
@@ -215,9 +177,7 @@ $$
 the relevant relation becomes:
 
 $$
-S_t
-\xrightarrow{Experience}
-S_{t+1}.
+S_t \xrightarrow{Experience} S_{t+1}.
 $$
 
 The process remains continuous precisely because it can change.
@@ -245,18 +205,15 @@ These specify how a system could be organized.
 For example:
 
 $$
-Optics :=
-distinguishability\ of\ current\ epistemic\ position
+Optics := distinguishability\ of\ current\ epistemic\ position
 $$
 
 $$
-Anti\text{-}Oracle :=
-inspection\ of\ epistemic\ transitions
+Anti\text{-}Oracle := inspection\ of\ epistemic\ transitions
 $$
 
 $$
-Epoché :=
-capacity\ to\ refrain\ from\ deeper\ reflection
+Epoché := capacity\ to\ refrain\ from\ deeper\ reflection
 $$
 
 ## Empirical hypotheses
@@ -297,9 +254,7 @@ TGS proposes an operational conception of conscious cognition, but does not clai
 Thus:
 
 $$
-Architectural\ Realization
-\neq
-Empirical\ Explanation\ of\ Consciousness.
+Architectural\ Realization \neq Empirical\ Explanation\ of\ Consciousness.
 $$
 
 This distinction is not peripheral.
@@ -390,15 +345,7 @@ If yes, the distinction becomes functionally instantiated.
 TGS introduces a graded epistemic vocabulary:
 
 $$
-VIEW
-\rightarrow
-SHADOW
-\rightarrow
-CANDIDATE
-\rightarrow
-CONSTRUCTED
-\rightarrow
-VALIDATED.
+VIEW \rightarrow SHADOW \rightarrow CANDIDATE \rightarrow CONSTRUCTED \rightarrow VALIDATED.
 $$
 
 These are not simply confidence scores.
@@ -434,25 +381,19 @@ Basis Hopping occurs when a system moves from one descriptive basis to another w
 For example:
 
 $$
-Analogy
-\rightarrow
-Explanation
+Analogy \rightarrow Explanation
 $$
 
 or:
 
 $$
-Prediction
-\rightarrow
-Mechanism
+Prediction \rightarrow Mechanism
 $$
 
 or:
 
 $$
-OnChain\ Record
-\rightarrow
-External\ Fact.
+OnChain\ Record \rightarrow External\ Fact.
 $$
 
 The problem is not necessarily that either endpoint is false.
@@ -462,9 +403,7 @@ The problem is that the **edge connecting them has disappeared**.
 Therefore:
 
 $$
-Truth\ of\ Nodes
-\neq
-Validity\ of\ Edges.
+Truth\ of\ Nodes \neq Validity\ of\ Edges.
 $$
 
 This is one of the central principles of TGS.
@@ -521,9 +460,7 @@ Optics may distinguish:
 The important distinction is:
 
 $$
-Seeing
-\neq
-Seeing\ one's\ seeing.
+Seeing \neq Seeing\ one's\ seeing.
 $$
 
 The architecture does not require permanent explicit self-observation.
@@ -616,17 +553,13 @@ It means:
 Thus:
 
 $$
-Epoché
-\neq
-Ignorance.
+Epoché \neq Ignorance.
 $$
 
 and:
 
 $$
-Epoché
-\neq
-Validation.
+Epoché \neq Validation.
 $$
 
 Epoché prevents the architecture from interpreting infinite introspection as the goal of cognition.
@@ -662,9 +595,7 @@ Its purpose is to prevent unsupported transitions from becoming invisible.
 Suppose:
 
 $$
-S_t
-\rightarrow
-S_{t+1}
+S_t \rightarrow S_{t+1}
 $$
 
 and the epistemic status increases.
@@ -672,9 +603,7 @@ and the epistemic status increases.
 For example:
 
 $$
-CANDIDATE
-\rightarrow
-VALIDATED.
+CANDIDATE \rightarrow VALIDATED.
 $$
 
 Anti-Oracle requires the transition to be inspectable.
@@ -692,11 +621,7 @@ The exact validation rules depend on the implementation and domain.
 The general invariant is:
 
 $$
-\boxed{
-Epistemic\ Upgrade
-\Rightarrow
-Inspectable\ Transition
-}
+\boxed{Epistemic\ Upgrade \Rightarrow Inspectable\ Transition}
 $$
 
 ---
@@ -729,9 +654,7 @@ For example, uncertainty may change:
 Thus:
 
 $$
-Linguistic\ Distinction
-\neq
-Functional\ Distinction.
+Linguistic\ Distinction \neq Functional\ Distinction.
 $$
 
 This is one of the central empirical tests of TGS.
@@ -759,17 +682,13 @@ $$
 but:
 
 $$
-D_t
-\rightarrow
-Behavior_{t+1}.
+D_t \rightarrow Behavior_{t+1}.
 $$
 
 More strongly:
 
 $$
-Behavior_{t+1}(D_t)
-\neq
-Behavior_{t+1}(\neg D_t).
+Behavior_{t+1}(D_t) \neq Behavior_{t+1}(\neg D_t).
 $$
 
 The exact implementation may vary.
@@ -791,11 +710,7 @@ Therefore TGS requires environmental coupling.
 The architecture must support:
 
 $$
-Action
-\rightarrow
-Environment
-\rightarrow
-Consequence.
+Action \rightarrow Environment \rightarrow Consequence.
 $$
 
 The environment must not be reducible to the current internal model.
@@ -827,11 +742,7 @@ is the encountered outcome.
 Then:
 
 $$
-\Delta_t
-=
-O_{t+1}
--
-\hat{O}_{t+1}.
+\Delta_t = O_{t+1} - \hat{O}_{t+1}.
 $$
 
 The important point is not merely that $\Delta_t$ exists.
@@ -841,11 +752,7 @@ It is that the discrepancy can alter the epistemic state of the process.
 Thus:
 
 $$
-World\ Push\ Back
-\rightarrow
-Residue
-\rightarrow
-Refinement.
+World\ Push\ Back \rightarrow Residue \rightarrow Refinement.
 $$
 
 World Push Back is therefore the mechanism by which the environment can force the process to encounter the limits of its current description.
@@ -859,11 +766,7 @@ A **Residue** is a discrepancy that the current model does not fully absorb.
 Conceptually:
 
 $$
-Residue
-=
-World
--
-Model.
+Residue = World - Model.
 $$
 
 This is not intended as a literal subtraction of physical objects.
@@ -893,33 +796,25 @@ Surprise is not defined merely as an emotional state.
 Architecturally, surprise is a detectable mismatch between expected and encountered states.
 
 $$
-Surprise
-\sim
-Mismatch(Expected,Observed).
+Surprise \sim Mismatch(Expected,Observed).
 $$
 
 The important transition is:
 
 $$
-Surprise
-\rightarrow
-Residue.
+Surprise \rightarrow Residue.
 $$
 
 The residue may then trigger:
 
 $$
-Residue
-\rightarrow
-Reflection
+Residue \rightarrow Reflection
 $$
 
 or:
 
 $$
-Residue
-\rightarrow
-Epoché
+Residue \rightarrow Epoché
 $$
 
 depending on the architectural assessment of relevance.
@@ -942,17 +837,13 @@ It may change:
 Therefore:
 
 $$
-Refinement
-\neq
-Answer\ Revision.
+Refinement \neq Answer\ Revision.
 $$
 
 The stronger architectural transition is:
 
 $$
-K_t
-\rightarrow
-K_{t+1}.
+K_t \rightarrow K_{t+1}.
 $$
 
 The boundary between known and unknown may itself change.
@@ -976,9 +867,7 @@ denote the epistemic Ledger at time $t$.
 Then:
 
 $$
-L_t
-\rightarrow
-L_{t+1}.
+L_t \rightarrow L_{t+1}.
 $$
 
 The Ledger preserves epistemically significant transitions, including:
@@ -1004,9 +893,7 @@ The point is to remember **how the epistemic position changed**.
 Without persistent memory:
 
 $$
-S_t
-\rightarrow
-S_{t+1}
+S_t \rightarrow S_{t+1}
 $$
 
 may become disconnected from the history that explains the transition.
@@ -1014,11 +901,7 @@ may become disconnected from the history that explains the transition.
 A continuing architecture therefore requires:
 
 $$
-Experience
-\rightarrow
-Memory
-\rightarrow
-Future\ Behavior.
+Experience \rightarrow Memory \rightarrow Future\ Behavior.
 $$
 
 The memory should preserve not only what was concluded, but why the conclusion changed.
@@ -1026,19 +909,13 @@ The memory should preserve not only what was concluded, but why the conclusion c
 This gives:
 
 $$
-K_t
-\rightarrow
-Experience
-\rightarrow
-K_{t+1}
+K_t \rightarrow Experience \rightarrow K_{t+1}
 $$
 
 together with:
 
 $$
-Ledger_t
-\rightarrow
-Ledger_{t+1}.
+Ledger_t \rightarrow Ledger_{t+1}.
 $$
 
 ---
@@ -1069,9 +946,7 @@ It does not make a claim true merely because it records it.
 Instead:
 
 $$
-Recorded
-\neq
-True.
+Recorded \neq True.
 $$
 
 The Ledger preserves the history necessary for later inspection.
@@ -1099,9 +974,7 @@ A blockchain can provide:
 The critical distinction remains:
 
 $$
-OnChain\ State
-\neq
-External\ Reality.
+OnChain\ State \neq External\ Reality.
 $$
 
 An on-chain event is an externally inspectable computational fact.
@@ -1115,17 +988,13 @@ It does not automatically establish every corresponding fact about the physical 
 The architecture explicitly rejects:
 
 $$
-Blockchain
-=
-Reality.
+Blockchain = Reality.
 $$
 
 Instead:
 
 $$
-Blockchain
-\subset
-Environment.
+Blockchain \subset Environment.
 $$
 
 A blockchain can be part of the environment in which an agent acts and receives consequences.
@@ -1133,13 +1002,7 @@ A blockchain can be part of the environment in which an agent acts and receives 
 For example:
 
 $$
-Agent
-\rightarrow
-Transaction
-\rightarrow
-Blockchain
-\rightarrow
-State\ Change.
+Agent \rightarrow Transaction \rightarrow Blockchain \rightarrow State\ Change.
 $$
 
 But if a transaction claims:
@@ -1159,9 +1022,7 @@ That requires another bridge.
 The transition:
 
 $$
-OnChain\ State
-\rightarrow
-External\ Fact
+OnChain\ State \rightarrow External\ Fact
 $$
 
 requires an explicit bridge.
@@ -1180,9 +1041,7 @@ The bridge itself becomes subject to Anti-Oracle inspection.
 Thus:
 
 $$
-OnChain\ Record
-\not\Rightarrow
-External\ Truth
+OnChain\ Record \not\Rightarrow External\ Truth
 $$
 
 without an appropriate $\Phi$.
@@ -1194,11 +1053,7 @@ without an appropriate $\Phi$.
 TGS therefore introduces an explicit action loop:
 
 $$
-Representation
-\rightarrow
-Action
-\rightarrow
-Consequence.
+Representation \rightarrow Action \rightarrow Consequence.
 $$
 
 This matters because a purely internal architecture can continually modify its representations without ever discovering whether those representations survive contact with an environment.
@@ -1206,9 +1061,7 @@ This matters because a purely internal architecture can continually modify its r
 The action loop creates the possibility of:
 
 $$
-Expected
-\neq
-Observed.
+Expected \neq Observed.
 $$
 
 That difference is where World Push Back enters the architecture.
@@ -1220,47 +1073,19 @@ That difference is where World Push Back enters the architecture.
 The minimal continuing loop becomes:
 
 $$
-Action
-\rightarrow
-Outcome
-\rightarrow
-Residue
-\rightarrow
-Refinement.
+Action \rightarrow Outcome \rightarrow Residue \rightarrow Refinement.
 $$
 
 With epistemic processing:
 
 $$
-Seeing
-\rightarrow
-Distinguishing
-\rightarrow
-Inspecting
-\rightarrow
-Choosing\ Depth
-\rightarrow
-Acting
-\rightarrow
-Encountering
-\rightarrow
-Evaluating
-\rightarrow
-Refining
-\rightarrow
-Remembering
-\rightarrow
-Continuing.
+Seeing \rightarrow Distinguishing \rightarrow Inspecting \rightarrow Choosing\ Depth \rightarrow Acting \rightarrow Encountering \rightarrow Evaluating \rightarrow Refining \rightarrow Remembering \rightarrow Continuing.
 $$
 
 This is fundamentally different from:
 
 $$
-Generate
-\rightarrow
-Critique
-\rightarrow
-Rewrite.
+Generate \rightarrow Critique \rightarrow Rewrite.
 $$
 
 The latter can remain entirely internal.
@@ -1286,9 +1111,7 @@ Other agents can:
 Thus:
 
 $$
-Agent
-\leftrightarrow
-Agent
+Agent \leftrightarrow Agent
 $$
 
 becomes part of the environment.
@@ -1298,9 +1121,7 @@ Social feedback can therefore act as a form of World Push Back.
 But again:
 
 $$
-Social\ Feedback
-\neq
-Truth.
+Social\ Feedback \neq Truth.
 $$
 
 It is evidence or environmental response whose epistemic status must itself be evaluated.
@@ -1318,17 +1139,13 @@ For example:
 The critical distinction is:
 
 $$
-Attestation
-\neq
-Truth\ of\ Outputs.
+Attestation \neq Truth\ of\ Outputs.
 $$
 
 Instead:
 
 $$
-Attestation
-\rightarrow
-Compliance\ with\ Conditions.
+Attestation \rightarrow Compliance\ with\ Conditions.
 $$
 
 An attestation may therefore influence:
@@ -1363,27 +1180,7 @@ $$
 It is closer to:
 
 $$
-Know
-\rightarrow
-Distinguish\ Knowing
-\rightarrow
-Distinguish\ Not\ Knowing
-\rightarrow
-Observe\ the\ Distinction
-\rightarrow
-Work\ with\ it
-\rightarrow
-Act
-\rightarrow
-Experience
-\rightarrow
-Evaluate
-\rightarrow
-Revise
-\rightarrow
-Remember
-\rightarrow
-Continue.
+Know \rightarrow Distinguish\ Knowing \rightarrow Distinguish\ Not\ Knowing \rightarrow Observe\ the\ Distinction \rightarrow Work\ with\ it \rightarrow Act \rightarrow Experience \rightarrow Evaluate \rightarrow Revise \rightarrow Remember \rightarrow Continue.
 $$
 
 In multi-agent participatory environments, this includes:
@@ -1426,13 +1223,7 @@ Therefore TGS requires functional consequences.
 A distinction should influence at least one subsequent operation:
 
 $$
-Reflection,
-Action,
-Evidence\ Seeking,
-Delegation,
-Memory,
-or
-Epistemic\ Status.
+Reflection, Action, Evidence\ Seeking, Delegation, Memory, or Epistemic\ Status.
 $$
 
 ---
@@ -1442,21 +1233,15 @@ $$
 TGS maintains several distinctions that are frequently collapsed.
 
 $$
-Visibility
-\neq
-Choice
+Visibility \neq Choice
 $$
 
 $$
-Choice
-\neq
-Outcome
+Choice \neq Outcome
 $$
 
 $$
-Outcome
-\neq
-Selection
+Outcome \neq Selection
 $$
 
 An option being visible does not mean it was selected.
@@ -1484,9 +1269,7 @@ represent the total architectural state at time $t$.
 Then:
 
 $$
-S_{t+1}
-=
-F(S_t,E_t,A_t,L_t)
+S_{t+1} = F(S_t,E_t,A_t,L_t)
 $$
 
 where:
@@ -1500,13 +1283,7 @@ The architecture is not defined by one fixed state.
 It is defined by the trajectory:
 
 $$
-S_0
-\rightarrow
-S_1
-\rightarrow
-S_2
-\rightarrow
-\cdots
+S_0 \rightarrow S_1 \rightarrow S_2 \rightarrow \cdots
 $$
 
 The key property is that the trajectory preserves epistemically relevant history while allowing structural change.
@@ -1556,11 +1333,7 @@ Thus TGS treats reflection depth as part of epistemic integrity rather than only
 Modern language-agent architectures often use:
 
 $$
-Generate
-\rightarrow
-Critique
-\rightarrow
-Rewrite.
+Generate \rightarrow Critique \rightarrow Rewrite.
 $$
 
 TGS asks a broader question.
@@ -1607,11 +1380,7 @@ The residue can remain unresolved and continue to influence future reasoning.
 This creates a structural relationship between:
 
 $$
-Prediction\ Error
-\rightarrow
-Residue
-\rightarrow
-Future\ Epistemic\ Revision.
+Prediction\ Error \rightarrow Residue \rightarrow Future\ Epistemic\ Revision.
 $$
 
 ---
@@ -1725,7 +1494,6 @@ The framework makes a narrower proposal:
 The entire architecture can now be represented as:
 
 $$
-\boxed{
 \begin{aligned}
 &Seeing\\
 &\downarrow\\
@@ -1765,7 +1533,6 @@ $$
 &\downarrow\\
 &Continue
 \end{aligned}
-}
 $$
 
 Across this process:
@@ -1789,41 +1556,13 @@ Attestations connect the agent's demonstrated epistemic capacities to its author
 The deepest architectural requirements are therefore:
 
 $$
-\boxed{
-Environmental\ Coupling
-+
-Epistemic\ Continuity
-+
-Functional\ Distinguishability
-+
-Participatory\ Accountability.
-}
+\boxed{Environmental\ Coupling + Epistemic\ Continuity + Functional\ Distinguishability + Participatory\ Accountability.}
 $$
 
 And the runtime can be compressed to:
 
 $$
-\boxed{
-Distinguish
-\rightarrow
-Inspect
-\rightarrow
-Choose\ Depth
-\rightarrow
-Act
-\rightarrow
-Encounter
-\rightarrow
-Evaluate
-\rightarrow
-Refine
-\rightarrow
-Remember
-\rightarrow
-Attest
-\rightarrow
-Continue.
-}
+Distinguish \rightarrow Inspect \rightarrow Choose\ Depth \rightarrow Act \rightarrow Encounter \rightarrow Evaluate \rightarrow Refine \rightarrow Remember \rightarrow Attest \rightarrow Continue.
 $$
 
 ---
@@ -1897,11 +1636,7 @@ And it can continue.
 This returns TGS to the intuition from which the architecture originally emerged:
 
 $$
-\frac{\partial G}{\partial t}
-=
-\nabla_{\Delta}R(G,\Delta)
--
-\nabla_G C(G,\varepsilon),
+\frac{\partial G}{\partial t} = \nabla_{\Delta}R(G,\Delta) - \nabla_G C(G,\varepsilon),
 $$
 
 with:
@@ -1921,52 +1656,19 @@ TGS proposes that the answer cannot be found in reflection alone.
 It requires:
 
 $$
-Distinction
-+
-Transition
-+
-Action
-+
-Consequence
-+
-Residue
-+
-Revision
-+
-Memory
-+
-Continuation.
+Distinction + Transition + Action + Consequence + Residue + Revision + Memory + Continuation.
 $$
 
 And when cognition becomes participatory:
 
 $$
-+
-Attestation
-+
-Accountability.
++ Attestation + Accountability.
 $$
 
 The architecture therefore ends not with a final state, but with a loop:
 
 $$
-\boxed{
-Continue
-\rightarrow
-See
-\rightarrow
-Distinguish
-\rightarrow
-Act
-\rightarrow
-Encounter
-\rightarrow
-Revise
-\rightarrow
-Remember
-\rightarrow
-Continue.
-}
+\boxed{Continue \rightarrow See \rightarrow Distinguish \rightarrow Act \rightarrow Encounter \rightarrow Revise \rightarrow Remember \rightarrow Continue.}
 $$
 
 That continuation is the object of the architecture.
@@ -1977,5 +1679,3 @@ Not an oracle of truth.
 
 But a process capable of discovering that its current way of seeing is not the world itself — and of changing because it discovered the difference.
 ```
-
-Скопируйте весь блок выше (от `# TGS Optics...` до конца) и вставьте в файл `README.md` — GitHub корректно отрендерит все заголовки, формулы KaTeX, цитаты и структуру.
