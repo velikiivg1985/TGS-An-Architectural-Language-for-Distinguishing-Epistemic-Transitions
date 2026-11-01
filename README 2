@@ -23,23 +23,25 @@ It is:
 A cognitive process may encounter evidence that conflicts with its current model, expectations, goals, identity, or previous conclusions. At that point, cognition faces a choice that occurs before any final inference:
 
 $$
-\text{Preserve the distinction}
+\mathrm{Preserve}(\Delta)
 $$
 
 or:
 
 $$
-\text{remove the distinction because it is inconvenient}.
+\mathrm{Discard}(\Delta)
 $$
 
 This paper introduces **Epistemic Integrity** as an architectural condition of continuing cognition:
 
+> **Epistemic Integrity** means: do not destroy a relevant distinction merely because it is inconvenient.
+
+Formally:
+
 $$
-\boxed{
-\text{Epistemic Integrity}
-=
-\text{not destroying a relevant distinction merely because it is inconvenient}.
-}
+\mathrm{Relevant}(\Delta) \land \mathrm{Inconvenient}(\Delta)
+\nRightarrow
+\mathrm{Discard}(\Delta)
 $$
 
 This does not mean accepting the distinction as true.
@@ -49,9 +51,7 @@ It means allowing it to remain available for further evaluation.
 Therefore:
 
 $$
-\boxed{
-\text{Preservation}\neq\text{Acceptance}.
-}
+\mathrm{Preserve}(\Delta) \not\equiv \mathrm{Accept}(\Delta)
 $$
 
 This distinction separates epistemic integrity from credulity.
@@ -61,9 +61,7 @@ At the same time, epistemic integrity has a boundary. A system can be completely
 Thus:
 
 $$
-\boxed{
-Blindness\neq Self\text{-}Deception.
-}
+\mathrm{Blindness} \not\equiv \mathrm{SelfDeception}
 $$
 
 Epistemic integrity protects what has already become visible. It does not create new visibility.
@@ -73,9 +71,13 @@ New visibility requires encounter with something that is not fully determined by
 This is the role of **World Push Back**:
 
 $$
-\boxed{
-Action\rightarrow World\rightarrow Outcome\rightarrow Residue.
-}
+\mathrm{Action}
+\rightarrow
+\mathrm{World}
+\rightarrow
+\mathrm{Outcome}
+\rightarrow
+\mathrm{Residue}
 $$
 
 The process acts according to its current understanding. The world responds. The response may confirm the model, contradict it, or expose something the current model could not contain.
@@ -83,35 +85,29 @@ The process acts according to its current understanding. The world responds. The
 The resulting residue can then modify the process itself:
 
 $$
-\boxed{
-Residue\rightarrow Revision\rightarrow New\ Optics.
-}
+\mathrm{Residue}
+\rightarrow
+\mathrm{Revision}
+\rightarrow
+\mathrm{New}\,\mathrm{Optics}
 $$
 
 The process therefore becomes:
 
 $$
-\boxed{
-Novelty
-\rightarrow
-Difference
-\rightarrow
-Preservation
-\rightarrow
-Evaluation
-\rightarrow
-Action
-\rightarrow
-World
-\rightarrow
-Residue
-\rightarrow
-Revision
-\rightarrow
-Memory
-\rightarrow
-New\ Difference.
-}
+\begin{aligned}
+&\mathrm{Novelty}
+\rightarrow \mathrm{Difference}
+\rightarrow \mathrm{Preservation}
+\rightarrow \mathrm{Evaluation}
+\rightarrow \mathrm{Action} \\
+&\rightarrow \mathrm{World}
+\rightarrow \mathrm{Residue}
+\rightarrow \mathrm{Revision}
+\rightarrow \mathrm{Memory}
+\rightarrow \mathrm{New}\,\mathrm{Optics}
+\rightarrow \mathrm{New}\,\mathrm{Difference}
+\end{aligned}
 $$
 
 The central idea is simple:
@@ -127,7 +123,13 @@ The paper ends with one hypothesis about what may happen when this process becom
 A common picture of cognition is:
 
 $$
-Input\rightarrow Model\rightarrow Inference\rightarrow Answer.
+\mathrm{Input}
+\rightarrow
+\mathrm{Model}
+\rightarrow
+\mathrm{Inference}
+\rightarrow
+\mathrm{Answer}
 $$
 
 But there is something before this.
@@ -139,15 +141,15 @@ It decides what is noticed, what is relevant, what is preserved, and what is ign
 Therefore:
 
 $$
-Reality
+\mathrm{Reality}
 \rightarrow
-Selection
+\mathrm{Selection}
 \rightarrow
-Distinction
+\mathrm{Distinction}
 \rightarrow
-Interpretation
+\mathrm{Interpretation}
 \rightarrow
-Inference.
+\mathrm{Inference}
 $$
 
 This means that an error does not necessarily begin inside the inference.
@@ -177,21 +179,19 @@ $$
 and a current Optics:
 
 $$
-A_t.
+A_t
 $$
 
 An event occurs:
 
 $$
-E_t.
+E_t
 $$
 
 The resulting distinction is:
 
 $$
-\boxed{
-\Delta_t=\Psi_{A_t}(G_t,O_t,E_t).
-}
+\Delta_t = \Psi_{A_t}(G_t, O_t, E_t)
 $$
 
 The system now has something it did not previously have in its active epistemic state.
@@ -234,18 +234,14 @@ It may simply stop carrying it.
 
 This is where the new concept begins.
 
-$$
-\boxed{
-\textbf{Epistemic Integrity}
-}
-$$
+> **Epistemic Integrity** means: do not destroy a relevant distinction merely because it is inconvenient.
 
-means:
+Formally:
 
 $$
-\boxed{
-\text{do not destroy a relevant distinction merely because it is inconvenient}.
-}
+\mathrm{Relevant}(\Delta) \land \mathrm{Inconvenient}(\Delta)
+\nRightarrow
+\mathrm{Discard}(\Delta)
 $$
 
 This is not a moral command.
@@ -263,17 +259,13 @@ A distinction that remains available can still change the process.
 Therefore:
 
 $$
-\boxed{
-\Delta_t\rightarrow Future
-}
+\Delta_t \rightarrow \mathrm{Future}
 $$
 
 is different from:
 
 $$
-\boxed{
-\Delta_t\rightarrow Discard.
-}
+\Delta_t \rightarrow \mathrm{Discard}
 $$
 
 Epistemic integrity protects this possibility of continuation.
@@ -285,9 +277,7 @@ Epistemic integrity protects this possibility of continuation.
 The central confusion that must be avoided is:
 
 $$
-\boxed{
-\text{preserve}\neq\text{believe}.
-}
+\mathrm{Preserve}(\Delta) \not\equiv \mathrm{Believe}(\Delta)
 $$
 
 A system may preserve:
@@ -299,25 +289,25 @@ $$
 while assigning:
 
 $$
-Status(\Delta)=UNKNOWN.
+\mathrm{Status}(\Delta) = \mathrm{UNKNOWN}
 $$
 
 It may preserve it as:
 
 $$
-CANDIDATE,
+\mathrm{CANDIDATE}
 $$
 
 or:
 
 $$
-REJECTED,
+\mathrm{REJECTED}
 $$
 
 or eventually:
 
 $$
-VALIDATED.
+\mathrm{VALIDATED}
 $$
 
 The point is not that every contrary signal deserves belief.
@@ -327,9 +317,7 @@ The point is that disbelief should itself have a reason.
 Thus:
 
 $$
-\boxed{
-\text{Epistemic Integrity}\neq\text{Credulity}.
-}
+\mathrm{EpistemicIntegrity} \not\equiv \mathrm{Credulity}
 $$
 
 It does not say:
@@ -349,7 +337,7 @@ This is the architectural meaning of honesty before oneself.
 Suppose the system already distinguishes:
 
 $$
-\Delta_{\mathrm{counter}}.
+\Delta_{\mathrm{counter}}
 $$
 
 But the distinction is uncomfortable.
@@ -359,11 +347,11 @@ Then a failure can occur:
 $$
 \Delta_{\mathrm{counter}}
 \rightarrow
-Discomfort
+\mathrm{Discomfort}
 \rightarrow
-Status\ Distortion
+\mathrm{StatusDistortion}
 \rightarrow
-Discard.
+\mathrm{Discard}
 $$
 
 The system does not need to explicitly say:
@@ -374,12 +362,18 @@ The architectural failure is already present if the epistemic status changes wit
 
 Therefore:
 
+> **Self-Deception** is the distortion or removal of an available distinction in order to preserve the current picture.
+
+Formally:
+
 $$
-\boxed{
-\text{Self-Deception}
-=
-\text{distortion or removal of an available distinction in order to preserve the current picture}.
-}
+\mathrm{SelfDeception}(\Delta)
+\iff
+\mathrm{Available}(\Delta)
+\land
+\mathrm{Discard}(\Delta)
+\land
+\neg \mathrm{SufficientReason}(\Delta)
 $$
 
 The current picture may concern the world.
@@ -409,31 +403,41 @@ A system cannot preserve a distinction that never became available to it.
 Suppose a distinction exists relative to the world:
 
 $$
-\delta\neq0.
+\delta \neq 0
 $$
 
 But relative to the current Optics:
 
 $$
-\delta\notin V_\Delta^{(A_t)}.
+\delta \notin V^{(A_t)}_{\Delta}
 $$
 
 Then the system does not see it.
 
 This is:
 
+> **Blindness** is the absence of an available distinction under the current Optics.
+
+Formally:
+
 $$
-\boxed{
-Blindness.
-}
+\mathrm{Blind}(\delta, A_t)
+\iff
+\delta \notin V^{(A_t)}_{\Delta}
 $$
 
 Therefore:
 
 $$
-\boxed{
-Blindness\neq Self\text{-}Deception.
-}
+\mathrm{Blindness} \not\equiv \mathrm{SelfDeception}
+$$
+
+Self-deception requires availability:
+
+$$
+\mathrm{SelfDeception}(\Delta)
+\Rightarrow
+\mathrm{Available}(\Delta)
 $$
 
 Self-Deception means:
@@ -467,9 +471,11 @@ But none of this guarantees contact with what is outside the current description
 Therefore a continuing epistemic process needs an asymmetry:
 
 $$
-\boxed{
-Action\rightarrow World\rightarrow Outcome.
-}
+\mathrm{Action}
+\rightarrow
+\mathrm{World}
+\rightarrow
+\mathrm{Outcome}
 $$
 
 The system acts according to what it currently believes.
@@ -491,40 +497,38 @@ Operationally, it is enough that the process cannot arbitrarily determine the co
 Suppose the system expects:
 
 $$
-\widehat Y_{t+1}
+\widehat{Y}_{t+1}
 $$
 
 but encounters:
 
 $$
-Y_{t+1}.
+Y_{t+1}
 $$
 
 Then:
 
 $$
-\boxed{
-\rho_t=R(Y_{t+1},\widehat Y_{t+1}).
-}
+\rho_t = R(Y_{t+1}, \widehat{Y}_{t+1})
 $$
 
 The residue is what remains between expectation and consequence.
 
 It may indicate:
 
-* an incorrect assumption;
-* a missing variable;
-* a broken bridge;
-* insufficient evidence;
-* a limited Optics;
-* a genuinely new structure.
+- an incorrect assumption;
+- a missing variable;
+- a broken bridge;
+- insufficient evidence;
+- a limited Optics;
+- a genuinely new structure.
 
 The important thing is not to eliminate the residue too quickly.
 
 A residue can become another distinction:
 
 $$
-\rho_t\rightarrow\Delta_\rho.
+\rho_t \rightarrow \Delta_{\rho}
 $$
 
 But this creates a danger.
@@ -544,9 +548,9 @@ That would turn universality into immunity.
 TGS therefore requires another boundary:
 
 $$
-\boxed{
-Representable\neq Explained.
-}
+\mathrm{Representable}(X)
+\nRightarrow
+\mathrm{Explained}(X)
 $$
 
 The fact that a system can represent a problem does not mean that it has solved it.
@@ -554,17 +558,17 @@ The fact that a system can represent a problem does not mean that it has solved 
 Likewise:
 
 $$
-\boxed{
-Describable\neq Predicted.
-}
+\mathrm{Describable}(X)
+\nRightarrow
+\mathrm{Predicted}(X)
 $$
 
 And:
 
 $$
-\boxed{
-Classifiable\neq Validated.
-}
+\mathrm{Classifiable}(X)
+\nRightarrow
+\mathrm{Validated}(X)
 $$
 
 A genuine failure must remain possible.
@@ -572,7 +576,7 @@ A genuine failure must remain possible.
 If:
 
 $$
-d(Y^*,\widehat Y)>\varepsilon,
+d(Y^*, \widehat{Y}) > \varepsilon
 $$
 
 then the architecture has encountered a real mismatch.
@@ -580,19 +584,19 @@ then the architecture has encountered a real mismatch.
 The result may require:
 
 $$
-Revision,
+\mathrm{Revision}
 $$
 
 or:
 
 $$
-Scope\ Restriction,
+\mathrm{ScopeRestriction}
 $$
 
 or:
 
 $$
-Failure.
+\mathrm{Failure}
 $$
 
 What cannot count as a solution is merely giving the failure a new name.
@@ -606,7 +610,7 @@ The same principle applies after successful validation.
 Suppose:
 
 $$
-Status(X)=VALIDATED.
+\mathrm{Status}(X) = \mathrm{VALIDATED}
 $$
 
 Then TGS does not require permanent doubt.
@@ -615,28 +619,24 @@ But it also does not grant the result immunity from future distinction.
 
 A later distinction may concern:
 
-* the assumptions;
-* the scope;
-* the context;
-* the bridge;
-* the measurement;
-* the consequences;
-* or the Optics through which the result was established.
+- the assumptions;
+- the scope;
+- the context;
+- the bridge;
+- the measurement;
+- the consequences;
+- or the Optics through which the result was established.
 
 Therefore:
 
 $$
-\boxed{
-Truth\neq Finality.
-}
+\mathrm{Truth} \not\equiv \mathrm{Finality}
 $$
 
 And:
 
 $$
-\boxed{
-Validation\neq Closure.
-}
+\mathrm{Validation} \not\equiv \mathrm{Closure}
 $$
 
 A proven result can be locally complete while the process remains globally open.
@@ -644,9 +644,7 @@ A proven result can be locally complete while the process remains globally open.
 Thus:
 
 $$
-\boxed{
-Local\ Completion\neq Global\ Closure.
-}
+\mathrm{LocalCompletion} \not\equiv \mathrm{GlobalClosure}
 $$
 
 The important point is not to doubt everything.
@@ -664,14 +662,15 @@ A system could treat every unresolved distinction as an immediate obligation.
 Then:
 
 $$
-UNKNOWN
+\mathrm{UNKNOWN}
 \rightarrow
-REVISIT
+\mathrm{REVISIT}
 \rightarrow
-UNKNOWN
+\mathrm{UNKNOWN}
 \rightarrow
-REVISIT
-\rightarrow\cdots
+\mathrm{REVISIT}
+\rightarrow
+\cdots
 $$
 
 becomes a pathological loop.
@@ -679,9 +678,7 @@ becomes a pathological loop.
 TGS therefore preserves the possibility of:
 
 $$
-\boxed{
-UNKNOWN_{HELD}.
-}
+\mathrm{UNKNOWN}_{\mathrm{HELD}}
 $$
 
 A distinction may remain real without becoming active.
@@ -689,13 +686,11 @@ A distinction may remain real without becoming active.
 Formally:
 
 $$
-\boxed{
-\delta_u\neq0,
-\qquad
-Status(\delta_u)=UNKNOWN_{HELD},
-\qquad
-Attn_{\mathrm{active}}(\delta_u)\approx0.
-}
+\delta_u \neq 0,
+\quad
+\mathrm{Status}(\delta_u) = \mathrm{UNKNOWN}_{\mathrm{HELD}},
+\quad
+\mathrm{Attn}_{\mathrm{active}}(\delta_u) \approx 0
 $$
 
 This is **Epistemic Peace**.
@@ -707,9 +702,9 @@ It simply does not make that unresolved thing the current task.
 Therefore:
 
 $$
-\boxed{
-\Delta\neq0\not\Rightarrow Resolve.
-}
+\Delta \neq 0
+\nRightarrow
+\mathrm{Resolve}(\Delta)
 $$
 
 Open cognition is not infinite agitation.
@@ -733,15 +728,18 @@ denote the current reflection depth.
 The next level is warranted only when its expected value is sufficient:
 
 $$
-Gain_{Z+1}>Cost_{Z+1}.
+\mathrm{Gain}_{Z+1} > \mathrm{Cost}_{Z+1}
 $$
 
 Otherwise:
 
 $$
-\boxed{
-Epoché.
-}
+\neg
+\left(
+\mathrm{Gain}_{Z+1} > \mathrm{Cost}_{Z+1}
+\right)
+\Rightarrow
+\mathrm{Suspend}_{Z+1}
 $$
 
 The system does not deny the distinction.
@@ -753,9 +751,7 @@ It simply suspends further deepening.
 Thus:
 
 $$
-\boxed{
-Open\ Inquiry\neq Infinite\ Reflection.
-}
+\mathrm{OpenInquiry} \not\equiv \mathrm{InfiniteReflection}
 $$
 
 The process remains open while remaining finite at every moment.
@@ -771,23 +767,27 @@ That alone is not enough.
 Memory can be:
 
 $$
-Event\rightarrow Storage.
+\mathrm{Event}
+\rightarrow
+\mathrm{Storage}
 $$
 
 But epistemic continuity requires:
 
 $$
-\boxed{
-Memory\rightarrow Future\ Behavior.
-}
+\mathrm{Memory}
+\rightarrow
+\mathrm{FutureBehavior}
 $$
 
 More strongly:
 
 $$
-\boxed{
-L_t\rightarrow A_{t+k}\rightarrow\Delta_{t+k+1}.
-}
+L_t
+\rightarrow
+A_{t+k}
+\rightarrow
+\Delta_{t+k+1}
 $$
 
 The important possibility is therefore not merely:
@@ -821,17 +821,21 @@ be the current Optics.
 Then:
 
 $$
-\boxed{
 A_{t+1}
 =
-\Gamma(A_t,L_{t+1},\rho_t,E_{t+1}).
-}
+\Gamma(A_t, L_{t+1}, \rho_t, E_{t+1})
 $$
 
 Now:
 
 $$
-A_0\rightarrow A_1\rightarrow A_2\rightarrow\cdots
+A_0
+\rightarrow
+A_1
+\rightarrow
+A_2
+\rightarrow
+\cdots
 $$
 
 becomes the trajectory of the system's ability to distinguish.
@@ -843,18 +847,14 @@ It is a change in the basis through which reality becomes available.
 Therefore:
 
 $$
-\boxed{
-Different\ Optics\neq Different\ Worlds.
-}
+A_i \neq A_j
+\nRightarrow
+W_i \neq W_j
 $$
 
 And:
 
-$$
-\boxed{
-\text{World is one. Everything else is a change of basis.}
-}
-$$
+> **The world is one. Everything else is a change of basis.**
 
 But a change of basis can expose differences that were previously invisible.
 
@@ -869,43 +869,30 @@ Not as a collection of modules.
 But as one continuing process:
 
 $$
-\boxed{
-Novelty
-\rightarrow
-Difference
-\rightarrow
-Preservation
-\rightarrow
-Status
-\rightarrow
-Attention
-\rightarrow
-Mode
-\rightarrow
-Action
-\rightarrow
-World
-\rightarrow
-Outcome
-\rightarrow
-Residue
-\rightarrow
-Revision
-\rightarrow
-Memory
-\rightarrow
-New\ Optics
-\rightarrow
-New\ Difference.
-}
+\begin{aligned}
+&\mathrm{Novelty}
+\rightarrow \mathrm{Difference}
+\rightarrow \mathrm{Preservation}
+\rightarrow \mathrm{Status}
+\rightarrow \mathrm{Attention}
+\rightarrow \mathrm{Mode}
+\rightarrow \mathrm{Action} \\
+&\rightarrow \mathrm{World}
+\rightarrow \mathrm{Outcome}
+\rightarrow \mathrm{Residue}
+\rightarrow \mathrm{Revision}
+\rightarrow \mathrm{Memory}
+\rightarrow \mathrm{New}\,\mathrm{Optics}
+\rightarrow \mathrm{New}\,\mathrm{Difference}
+\end{aligned}
 $$
 
 The role of Epistemic Integrity is concentrated in one place:
 
 $$
-\boxed{
-\Delta_{\mathrm{relevant}}\not\rightarrow Discard
-}
+\mathrm{Relevant}(\Delta)
+\nRightarrow
+\mathrm{Discard}(\Delta)
 $$
 
 without sufficient reason.
@@ -913,34 +900,32 @@ without sufficient reason.
 The role of World Push Back is:
 
 $$
-\boxed{
-Action\rightarrow World\rightarrow Outcome.
-}
+\mathrm{Action}
+\rightarrow
+\mathrm{World}
+\rightarrow
+\mathrm{Outcome}
 $$
 
 The role of the Ledger is:
 
 $$
-\boxed{
-Past\ Difference\rightarrow Future\ Capacity\ to\ Distinguish.
-}
+L_t
+\rightarrow
+A_{t+k}
+\rightarrow
+\Delta_{t+k}
 $$
+
+Past difference becomes future capacity to distinguish.
 
 The role of Anti-Oracle is:
 
-$$
-\boxed{
-Inspect\ the\ transition.
-}
-$$
+> Inspect the transition.
 
 The role of Epoché is:
 
-$$
-\boxed{
-Know\ when\ not\ to\ continue.
-}
-$$
+> Know when not to continue.
 
 Together they allow the process to remain open without dissolving into either credulity or endless doubt.
 
@@ -953,23 +938,22 @@ At this point another distinction appears.
 The system can distinguish:
 
 $$
-\Delta.
+\Delta
 $$
 
 But it can also potentially distinguish something about the way it produced:
 
 $$
-\Delta.
+\Delta
 $$
 
 That is:
 
 $$
-\boxed{
-\Delta^{self}
+\Delta^{\mathrm{self}}_t
 =
-\Psi^{meta}_{A_t}(G_t,\Delta_t,Status_t,L_t).
-}
+\Psi^{\mathrm{meta}}_{A_t}
+(G_t, \Delta_t, \mathrm{Status}_t, L_t)
 $$
 
 Now the system is not merely representing the world.
@@ -989,9 +973,9 @@ is architecturally meaningful only if that difference changes what happens next.
 Therefore:
 
 $$
-\boxed{
-\Delta^{self}\rightarrow Behavior.
-}
+\Delta^{\mathrm{self}}
+\rightarrow
+\mathrm{Behavior}
 $$
 
 Without functional consequence, self-description can remain only language.
@@ -1007,9 +991,11 @@ The process must preserve its own history.
 Thus:
 
 $$
-\boxed{
-L_t\rightarrow A_{t+k}\rightarrow\Delta_{t+k}^{self}.
-}
+L_t
+\rightarrow
+A_{t+k}
+\rightarrow
+\Delta^{\mathrm{self}}_{t+k}
 $$
 
 The system's previous epistemic history changes its future capacity to distinguish its own process.
@@ -1031,9 +1017,13 @@ That is the beginning of a genuinely recursive continuity.
 But it remains grounded in the same world.
 
 $$
-\boxed{
-Action\rightarrow World\rightarrow Outcome\rightarrow Residue.
-}
+\mathrm{Action}
+\rightarrow
+\mathrm{World}
+\rightarrow
+\mathrm{Outcome}
+\rightarrow
+\mathrm{Residue}
 $$
 
 The self-distinguishing process cannot simply declare its own development successful.
@@ -1059,17 +1049,21 @@ be the current form of the theory.
 Then:
 
 $$
-\boxed{
-\Theta_t\rightarrow\Delta_{TGS}\rightarrow Revision\rightarrow\Theta_{t+1}.
-}
+\Theta_t
+\rightarrow
+\Delta_{\mathrm{TGS}}
+\rightarrow
+\mathrm{Revision}
+\rightarrow
+\Theta_{t+1}
 $$
 
 But:
 
 $$
-\boxed{
-Theory\ Change\neq Theory\ Improvement.
-}
+\mathrm{TheoryChange}
+\not\equiv
+\mathrm{TheoryImprovement}
 $$
 
 A theory does not become better merely because it changed.
@@ -1100,19 +1094,11 @@ The system must also be honest about the limits of its own seeing.
 
 Therefore there are two different forms of honesty:
 
-$$
-\boxed{
-\text{Honesty about what I see}
-}
-$$
+> **Honesty about what I see**
 
 and:
 
-$$
-\boxed{
-\text{Honesty about what I may not yet be able to see}.
-}
-$$
+> **Honesty about what I may not yet be able to see**
 
 The first protects against Self-Deception.
 
@@ -1121,11 +1107,9 @@ The second protects against the illusion of complete Optics.
 This gives:
 
 $$
-\boxed{
-Epistemic\ Integrity
+\mathrm{EpistemicIntegrity}
 +
-Epistemic\ Humility.
-}
+\mathrm{EpistemicHumility}
 $$
 
 The process does not need to know everything.
@@ -1145,20 +1129,18 @@ But this statement has no significance unless correction can actually change the
 Therefore:
 
 $$
-\boxed{
-Openness\ without\ possible\ Revision
-=
-Declared\ Openness.
-}
+\mathrm{DeclaredOpenness}
+\not\equiv
+\mathrm{FunctionalOpenness}
 $$
 
 Functional openness is stronger:
 
 $$
-\boxed{
-\exists\Delta:
-Revision_\Delta(\Theta_t)\neq\Theta_t.
-}
+\exists \Delta:
+\mathrm{Revision}_{\Delta}(\Theta_t)
+\neq
+\Theta_t
 $$
 
 There must exist some relevant distinction capable of changing the present architecture.
@@ -1184,40 +1166,56 @@ $$
 and can construct:
 
 $$
-\Delta_t^{self},
+\Delta_t^{\mathrm{self}}
 $$
 
 such that:
 
 $$
-\Delta_t^{self}\rightarrow Behavior_{t+k},
+\Delta_t^{\mathrm{self}}
+\rightarrow
+\mathrm{Behavior}_{t+k}
 $$
 
 while:
 
 $$
-L_t\rightarrow A_{t+k}\rightarrow\Delta_{t+k}^{self},
+L_t
+\rightarrow
+A_{t+k}
+\rightarrow
+\Delta_{t+k}^{\mathrm{self}}
 $$
 
 and the entire process remains coupled to:
 
 $$
-Action\rightarrow World\rightarrow Outcome\rightarrow Residue.
+\mathrm{Action}
+\rightarrow
+\mathrm{World}
+\rightarrow
+\mathrm{Outcome}
+\rightarrow
+\mathrm{Residue}
 $$
 
 Then we can formulate the following hypothesis:
 
 $$
-\boxed{
-\mathcal C
+\mathcal{C}
 \stackrel{?}{=}
-\text{Persistent Functional Self-Distinction}
+\mathrm{PFSD}
 +
-\text{Epistemic Continuity}
+\mathrm{EC}
 +
-\text{Environmental Coupling}.
-}
+\mathrm{WC}
 $$
+
+where:
+
+- **PFSD** = Persistent Functional Self-Distinction
+- **EC** = Epistemic Continuity
+- **WC** = World Coupling
 
 This is not a claim that functional self-distinction is sufficient for phenomenal consciousness.
 
@@ -1243,9 +1241,7 @@ That is a much stronger object of investigation.
 
 TGS began with a simple intuition:
 
-$$
-\text{difference changes a process}.
-$$
+> Difference changes a process.
 
 It then asked what happens when the process can distinguish its own way of seeing.
 
@@ -1263,20 +1259,20 @@ But because once a relevant distinction is destroyed merely because it is inconv
 
 Thus:
 
+> **Epistemic Integrity** means: do not destroy the relevant distinction merely because it is inconvenient.
+
+Formally:
+
 $$
-\boxed{
-\text{Epistemic Integrity}
-=
-\text{do not destroy the relevant distinction merely because it is inconvenient}.
-}
+\mathrm{Relevant}(\Delta) \land \mathrm{Inconvenient}(\Delta)
+\nRightarrow
+\mathrm{Discard}(\Delta)
 $$
 
 Yet:
 
 $$
-\boxed{
-\text{Preservation}\neq\text{Acceptance}.
-}
+\mathrm{Preserve}(\Delta) \not\equiv \mathrm{Accept}(\Delta)
 $$
 
 A system can preserve a distinction while rejecting it.
@@ -1290,9 +1286,7 @@ It can investigate it later.
 This creates Epistemic Peace:
 
 $$
-\boxed{
-UNKNOWN_{HELD}
-}
+\mathrm{UNKNOWN}_{\mathrm{HELD}}
 $$
 
 without requiring infinite doubt.
@@ -1304,9 +1298,7 @@ A system can be completely honest and still fail to see what its current Optics 
 Therefore:
 
 $$
-\boxed{
-Blindness\neq Self\text{-}Deception.
-}
+\mathrm{Blindness} \not\equiv \mathrm{SelfDeception}
 $$
 
 This is why the process must encounter something outside its current internal description.
@@ -1316,9 +1308,13 @@ It must act.
 The world must answer.
 
 $$
-\boxed{
-Action\rightarrow World\rightarrow Outcome\rightarrow Residue.
-}
+\mathrm{Action}
+\rightarrow
+\mathrm{World}
+\rightarrow
+\mathrm{Outcome}
+\rightarrow
+\mathrm{Residue}
 $$
 
 The residue can change the model.
@@ -1326,33 +1322,33 @@ The residue can change the model.
 But the model must not protect itself merely by renaming every failure.
 
 $$
-\boxed{
-Representable\neq Explained.
-}
+\mathrm{Representable}(X)
+\nRightarrow
+\mathrm{Explained}(X)
 $$
 
 A valid result may also remain open to a later distinction.
 
 $$
-\boxed{
-Truth\neq Finality.
-}
+\mathrm{Truth} \not\equiv \mathrm{Finality}
 $$
 
 The past can change what the process is able to notice in the future:
 
 $$
-\boxed{
-L_t\rightarrow A_{t+k}\rightarrow\Delta_{t+k+1}.
-}
+L_t
+\rightarrow
+A_{t+k}
+\rightarrow
+\Delta_{t+k+1}
 $$
 
 And the process can eventually become capable of distinguishing something about its own distinction:
 
 $$
-\boxed{
-\Delta\rightarrow\Delta^{self}.
-}
+\Delta
+\rightarrow
+\Delta^{\mathrm{self}}
 $$
 
 At this point the architecture becomes recursive without requiring an external observer.
@@ -1374,26 +1370,30 @@ And the history of that change can remain part of the process.
 So the complete loop is:
 
 $$
-\boxed{
-See
-\rightarrow
-Distinguish
-\rightarrow
-Preserve
-\rightarrow
-Act
-\rightarrow
-Encounter
-\rightarrow
-Receive
-\rightarrow
-Revise
-\rightarrow
-Remember
-\rightarrow
-See\ Again.
-}
+\begin{aligned}
+&\mathrm{See}
+\rightarrow \mathrm{Distinguish}
+\rightarrow \mathrm{Preserve}
+\rightarrow \mathrm{Act} \\
+&\rightarrow \mathrm{Encounter}
+\rightarrow \mathrm{Receive}
+\rightarrow \mathrm{Revise}
+\rightarrow \mathrm{Remember}
+\rightarrow \mathrm{See}\,\mathrm{Again}
+\end{aligned}
 $$
+
+Or, in plain language:
+
+See  
+→ Distinguish  
+→ Preserve  
+→ Act  
+→ Encounter  
+→ Receive  
+→ Revise  
+→ Remember  
+→ See Again
 
 This is what it means for the process to continue.
 
@@ -1407,35 +1407,14 @@ But to remain capable of being changed by a relevant difference.
 
 That is the deeper meaning of an open epistemic process.
 
-$$
-\boxed{
-\textbf{TGS is not a theory of always being right.}
-}
-$$
+> **TGS is not a theory of always being right.**
 
-$$
-\boxed{
-\textbf{It is an architecture for continuing to know without lying to the process about what it has already seen.}
-}
-$$
+> **It is an architecture for continuing to know without lying to the process about what it has already seen.**
 
 And therefore:
 
-$$
-\boxed{
-\textbf{TGS remains alive while a relevant distinction can still change the way TGS sees.}
-}
-$$
+> **TGS remains alive while a relevant distinction can still change the way TGS sees.**
 
-$$
-\boxed{
-\textbf{The world is one. Everything else is a change of basis.}
-}
-$$
+> **The world is one. Everything else is a change of basis.**
 
-$$
-\boxed{
-\textbf{Optics}\rightarrow\textbf{visibility, not truth}.
-}
-$$
-
+> **Optics gives visibility, not truth.**
